@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AE4E564B28C313DE00CBF8BC"
-               BuildableName = "CoffeeTimMitra1234.app"
-               BlueprintName = "CoffeeTimMitra1234"
-               ReferencedContainer = "container:CoffeeTimMitra1234.xcodeproj">
+               BuildableName = "CoffeeTimMitra1235.app"
+               BlueprintName = "CoffeeTimMitra1235"
+               ReferencedContainer = "container:CoffeeTimMitra1235.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AE4E565C28C313DF00CBF8BC"
-               BuildableName = "CoffeeTimMitra1234Tests.xctest"
-               BlueprintName = "CoffeeTimMitra1234Tests"
-               ReferencedContainer = "container:CoffeeTimMitra1234.xcodeproj">
+               BuildableName = "CoffeeTimMitra1235Tests.xctest"
+               BlueprintName = "CoffeeTimMitra1235Tests"
+               ReferencedContainer = "container:CoffeeTimMitra1235.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,9 +45,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AE4E566628C313DF00CBF8BC"
-               BuildableName = "CoffeeTimMitra1234UITests.xctest"
-               BlueprintName = "CoffeeTimMitra1234UITests"
-               ReferencedContainer = "container:CoffeeTimMitra1234.xcodeproj">
+               BuildableName = "CoffeeTimMitra1235UITests.xctest"
+               BlueprintName = "CoffeeTimMitra1235UITests"
+               ReferencedContainer = "container:CoffeeTimMitra1235.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -67,9 +67,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE4E564B28C313DE00CBF8BC"
-            BuildableName = "CoffeeTimMitra1234.app"
-            BlueprintName = "CoffeeTimMitra1234"
-            ReferencedContainer = "container:CoffeeTimMitra1234.xcodeproj">
+            BuildableName = "CoffeeTimMitra1235.app"
+            BlueprintName = "CoffeeTimMitra1235"
+            ReferencedContainer = "container:CoffeeTimMitra1235.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -84,9 +84,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE4E564B28C313DE00CBF8BC"
-            BuildableName = "CoffeeTimMitra1234.app"
-            BlueprintName = "CoffeeTimMitra1234"
-            ReferencedContainer = "container:CoffeeTimMitra1234.xcodeproj">
+            BuildableName = "CoffeeTimMitra1235.app"
+            BlueprintName = "CoffeeTimMitra1235"
+            ReferencedContainer = "container:CoffeeTimMitra1235.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
