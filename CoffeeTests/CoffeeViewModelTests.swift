@@ -31,7 +31,7 @@
 /// THE SOFTWARE.
 
 import XCTest
-@testable import CoffeeTimMitra1234
+@testable import CoffeeTimMitra1235
 
 @MainActor
 final class CoffeeViewModelTests: XCTestCase {
@@ -65,5 +65,24 @@ final class CoffeeViewModelTests: XCTestCase {
 
     XCTAssertEqual(model.coffees[0].name, newName)
     XCTAssertEqual(model.coffees.count, 2)
+  }
+  
+  func testSaveCoffeeWithEmptyName() async throws {
+    // 1
+    var coffeeToSave = CoffeeViewModel.newCoffee
+    coffeeToSave.name = ""
+
+    do {
+      // 2
+      try await model.saveCoffee(coffeeToSave)
+      XCTFail("Coffee with no name should throw empty name error")
+    } catch CoffeeViewModel.CoffeeError.emptyName {
+      // 3
+      XCTAssert(model.showCoffeeErrorAlert)
+      XCTAssertEqual(model.saveCoffeeError, .emptyName)
+    } catch {
+      // 4
+      XCTFail("Coffee with no name should throw empty name error")
+    }
   }
 }
